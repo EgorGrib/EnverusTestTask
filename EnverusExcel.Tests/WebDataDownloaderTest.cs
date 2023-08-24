@@ -8,7 +8,7 @@ public class WebDataDownloaderTest
     }
 
     [Test]
-    public void Test1()
+    public void TestThrowsFileNotFoundException()
     {
         //arrange
         var downloader = new WebDataDownloader();
