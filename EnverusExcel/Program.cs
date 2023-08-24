@@ -28,7 +28,7 @@ try
     var csvPath = outPath + @"/" + $"{targetFile} [Converted].csv";
     
     XslxToCsvConverter.Convert(excelSavePath, csvPath);
-
+    
     var yearsToKeep = new List<int>();
     var currentYear = DateTime.Now.Year;
     var yearCount = Convert.ToInt32(yearsToSave);
