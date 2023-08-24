@@ -2,7 +2,7 @@
 
 namespace EnverusExcel;
 
-public static class XslxToCsvConverter
+public static class XlsxToCsvConverter
 {
     public static void Convert(string excelPath, string csvPath)
     {
